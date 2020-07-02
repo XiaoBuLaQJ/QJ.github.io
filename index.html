@@ -102,14 +102,17 @@
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
-									<h3>待更新。。。</h3>
-									<p>待更新。。。</p>
+									<h3>Music Search</h3>
 									<div id="bgimg"></div>
-									<div class="container col-12 col-md-8" style="opacity: 0.7;">
+									<div class="container col-12 col-md-8">
 										<div id="app">
 											<div class="card"><div class="card-body">
 												<div class="row">
-													<input class="col-10 form-control" v-model="name" @keyup.13="off=0;search();"></input>
+
+<!--													<input class="col-10 form-control" v-model="name" @keyup.13="off=0;search();">-->
+
+													<input class="col-10 form-control"  type= "text "   placeholder="请输入内容..." style= "background-color:transparent "v-model="name" @keyup.13="off=0;search();">
+
 													<button class="btn btn-success col-2" @click="off=0;search();">
 														<i class="iconfont iconsousuo" title="搜索"></i>
 													</button>
@@ -171,7 +174,7 @@
 										var vm = new Vue({ //主应用
 											el:"#app",
 											data:{
-												name:"请搜索歌曲...",
+												name:"",
 												platform:"C",
 												type:"music",
 												off:0,
