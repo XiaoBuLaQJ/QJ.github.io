@@ -1,17 +1,4 @@
-
-//session_start();
-//
-//include('blockchain/config.php');
-//
-//
-//if ($input->get('do') == 'add') {
-//    $qx_num = $input->post('qx_num');
-//}
-//
-//$sql = "insert into qx (qx_num) VALUES ('{$qx_num}')";
-//
-//$is = $db->query($sql);
-//
+感谢宝贵意见！
 <?php
 session_start();
 header("Content-type:text/html;charset=utf-8");
