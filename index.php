@@ -6,9 +6,9 @@ $link = mysqli_connect('localhost','root','qjly7559','blockchain_cwgl');
 if (!$link) {
     die("连接失败:".mysqli_connect_error());
 }
-$qx_num = $_GET['qx_num'];
-$email = $_GET['email'];
-$message = $_GET['message'];
+$qx_num = $_POST['qx_num'];
+$email = $_POST['email'];
+$message = $_POST['message'];
 //if($qx_num == "" || $message == "" )
 //{
 //    echo "<script>alert('填一个名字吧！');window.location.href='index.html'</script>";

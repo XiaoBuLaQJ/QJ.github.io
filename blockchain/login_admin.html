@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>管理员登录</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main1.css" />
+    <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+</head>
+<body>
+<body>
+
+<header id="header">
+    <a href="login_admin.html" class="title">管理员登录</a>
+</header>
+
+
+<!--                <colgroup><col><col style="width: 215px;"></colgroup>-->
+<!--                <tbody>-->
+<!--                <tr>-->
+<!--                    <td>-->
+<!--                        <table class="plain"><colgroup><col style="width: 150px;"><col></colgroup><tbody><tr><th>-->
+<!--                    <label for="email" data-required="1">Email Address</label>-->
+<!--                </th>-->
+<!--                    <td>-->
+<!--                    <input id="email" maxlength="64" name="email" size="48" style="width: 200px;" value="" type="email" data-validate="{ required: true, format: 'email', help: 'Email address is required.' }" autocomplete="off" autocapitalize="off" spellcheck="false" class="maxlength_enabled" required="required">-->
+<!--                    </td>-->
+<!--                        </tr>-->
+<!--                        <tr><th>-->
+<!--                            <label for="password" data-required="1">Password</label>-->
+<!--                        </th><td>-->
+<!--                            <input id="password" maxlength="64" name="password" size="48" style="width: 200px;" type="password" value="" data-validate="{ required: true, help: 'Password is required.' }" autocomplete="off" autocapitalize="off" spellcheck="false" required="required">-->
+<!--                            <a style="margin-left: 15px;" href="/account/reset?r=https%3a%2f%2fgradadmissions.engineering.cmu.edu%2fapply%2f&amp;s=&amp;ds=">Forgot Your Password?</a></td></tr></tbody></table><div class="action">-->
+<!--                        <button class="default" onclick="if (FW.Validate(this)) FW.Postback(this); return (false);" type="submit">Login</button></div></td><td></td></tr></tbody></table><div style="margin-top: 50px;"></div><script>/*<![CDATA[*/$('#email').focus().select();/*]]>*/</script></form></div></div>-->
+
+<div id="wrapper">
+
+    <!-- Main -->
+    <section id="main" class="wrapper heise">
+        <div class="inner">
+            <h1 class="major">登录</h1>
+            <blockquote class="success">请输入用户名和密码！</blockquote>
+
+
+
+            <form method="post" action="login_admin.php">
+                <div class="row gtr-uniform">
+                    <div class="col-6 col-12-xsmall">
+                        <input type="text" name="qx_num" value="" placeholder="用户名" />
+                    </div>
+                    <div class="col-6 col-12-xsmall">
+                        <input type="password" name="password"  value="" placeholder="密码" />
+                    </div>
+                    <div class="col-12">
+                        <ul class="actions">
+                            <li><input type="submit" value="登录" class="primary" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+</div>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper hei-huise">
+    <div class="inner">
+        <ul class="menu">
+            <li>&copy; Qu Jiang (小布啦). All rights reserved.</li><li>Design: <a href="#three">小布啦</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</body>
+
+</html>
